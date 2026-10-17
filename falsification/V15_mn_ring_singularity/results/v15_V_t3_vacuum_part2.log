@@ -1,0 +1,24 @@
+{'C0': {'x_s': '1.929828258521150008402769005354225801285', 'a_plus_b': '0.0', 'dev_from_registered': '1.15e-12'}, 'F5R': {'x_s': '1.921922587916759772247059419686138289225', 'a_plus_b': '0.0', 'dev_from_registered': '-3.2402e-12'}}
+built outside 1.1920928955078125e-06
+{'label': 'C0 generic 0', 'ernst_rel_residual': '(2.5613e-59 - 5.0034e-59j)', 'ReE_minus_f_rel': '4.5935e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 1', 'ernst_rel_residual': '(-8.841e-61 - 9.7251e-60j)', 'ReE_minus_f_rel': '0.0', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 2', 'ernst_rel_residual': '(2.2886e-59 - 2.6626e-60j)', 'ReE_minus_f_rel': '0.0', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 3', 'ernst_rel_residual': '(7.1754e-60 + 8.9693e-60j)', 'ReE_minus_f_rel': '0.0', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 4', 'ernst_rel_residual': '(9.5116e-59 + 5.0993e-59j)', 'ReE_minus_f_rel': '-1.5892e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 5', 'ernst_rel_residual': '(6.5648e-60 + 1.5267e-61j)', 'ReE_minus_f_rel': '-1.5536e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 6', 'ernst_rel_residual': '(9.7242e-61 + 2.5283e-60j)', 'ReE_minus_f_rel': '-1.2113e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 7', 'ernst_rel_residual': '(9.7413e-60 - 4.3379e-59j)', 'ReE_minus_f_rel': '-1.5452e-60', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 8', 'ernst_rel_residual': '(3.821e-59 + 2.4966e-59j)', 'ReE_minus_f_rel': '-8.7802e-62', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 9', 'ernst_rel_residual': '(-4.4346e-60 + 8.757e-60j)', 'ReE_minus_f_rel': '2.0253e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 ring d=1e-3 +x', 'ernst_rel_residual': '(3.2216e-57 - 3.7645e-58j)', 'ReE_minus_f_rel': '-1.6228e-59', 'twist_ratio_rho': 'den=0, num=-1.9418e-56', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 ring d=1e-3 -x', 'ernst_rel_residual': '(3.2238e-57 + 2.9846e-58j)', 'ReE_minus_f_rel': '9.7161e-60', 'twist_ratio_rho': 'den=0, num=-1.9188e-56', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 ring d=1e-3 +y', 'ernst_rel_residual': '(4.9314e-55 + 7.4739e-54j)', 'ReE_minus_f_rel': '-2.0108e-57', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 ring d=1e-3 diag(-,+)', 'ernst_rel_residual': '(7.6603e-58 + 2.4133e-59j)', 'ReE_minus_f_rel': '2.5148e-59', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'F5R', 'ernst_rel_residual': '(1.2155e-59 + 3.0448e-59j)', 'ReE_minus_f_rel': '6.9563e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'F5R', 'ernst_rel_residual': '(3.6624e-57 + 1.1875e-58j)', 'ReE_minus_f_rel': '4.4753e-59', 'twist_ratio_rho': 'den=0, num=0.0', 'twist_ratio_z': '-1.0'}
+{'label': 'F5R', 'ernst_rel_residual': '(-5.0006e-55 + 3.7557e-55j)', 'ReE_minus_f_rel': '-2.1421e-57', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+outside {'e2g(y=1)': '1', 'e2g(y=-1)': '1'}
+inside {'e2g(y=1)': 'exp(-8*beta)', 'e2g(y=-1)': 'exp(-8*beta)'}
+outside {'e2g(y=1)': '1', 'e2g(y=-1)': '1', 'e2g_at_x=1e6_y=0': '0.99999999999473684211', 'e2g_at_x=1e6_y=0.7': '0.99999999999731578947', 'circ/(2pi radius) x=1.5 y=1(1-eps) eps=1e-6,1e-10': ['1.0000256270596379413', '1.0000000025627022078'], 'circ/(2pi radius) x=1.5 y=-1(1-eps) eps=1e-6,1e-10': ['1.0000256270596379413', '1.0000000025627022078'], 'circ/(2pi radius) x=3.0 y=1(1-eps) eps=1e-6,1e-10': ['0.99999858325527273416', '0.99999999985832551672'], 'circ/(2pi radius) x=3.0 y=-1(1-eps) eps=1e-6,1e-10': ['0.99999858325527273416', '0.99999999985832551672'], 'circ/(2pi radius) x=10.0 y=1(1-eps) eps=1e-6,1e-10': ['0.99999970048818724794', '0.99999999997004882241'], 'circ/(2pi radius) x=10.0 y=-1(1-eps) eps=1e-6,1e-10': ['0.99999970048818724794', '0.99999999997004882241'], 'exp(-4beta) C0': '1.183593424202554258e-20'}
+inside {'e2g(y=1)': 'exp(-8*beta)', 'e2g(y=-1)': 'exp(-8*beta)', 'e2g_at_x=1e6_y=0': '1.4008933938081544285e-40', 'e2g_at_x=1e6_y=0.7': '1.4008933938117672588e-40', 'circ/(2pi radius) x=1.5 y=1(1-eps) eps=1e-6,1e-10': ['84490637292396663216.0', '84488472317802199074.0'], 'circ/(2pi radius) x=1.5 y=-1(1-eps) eps=1e-6,1e-10': ['84490637292396663216.0', '84488472317802199074.0'], 'circ/(2pi radius) x=3.0 y=1(1-eps) eps=1e-6,1e-10': ['84488352402686040847.0', '84488472089313544459.0'], 'circ/(2pi radius) x=3.0 y=-1(1-eps) eps=1e-6,1e-10': ['84488352402686040847.0', '84488472089313544459.0'], 'circ/(2pi radius) x=10.0 y=1(1-eps) eps=1e-6,1e-10': ['84488446795987969380.0', '84488472098752875855.0'], 'circ/(2pi radius) x=10.0 y=-1(1-eps) eps=1e-6,1e-10': ['84488446795987969380.0', '84488472098752875855.0'], 'exp(-4beta) C0': '1.183593424202554258e-20'}
+done

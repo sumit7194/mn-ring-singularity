@@ -1,0 +1,60 @@
+# An equatorial ring singularity outside the horizon in the Manko–Novikov spacetime?
+
+*One-page summary for an expert reader. It is computer-assisted and was done with AI assistance; no professional
+physicist has checked it yet. We could not read Manko & Novikov 1992 itself, so this may well be known.*
+
+## The setting
+The Manko–Novikov (MN) vacuum metric in the form used by Gair, Li & Mandel 2008 (GLM, Eqs. 2–7) and
+Lukes-Gerakopoulos, Apostolatos & Contopoulos 2010 (LGAC), in prolate coordinates (x, y), with M = 1,
+κ = √(1−χ²), β = q/κ³. B and A are the GLM functions in f = e^{2ψ}A/B; B = |A₊|² is the Ernst denominator.
+The literature places the only singularity at the horizon equator x = 1, y = 0.
+
+## What we find
+**1. Where B = A = 0 (closed form, symbolic plus 50-digit numerics).**
+- On the equator y = 0, a(x,0) = −b(x,0) identically, B = (x+1−(x−1)b²)², and A vanishes wherever B does.
+- With s = arcoth x: **B = 0 on y = 0 ⇔ β (cosh s − 1)² (cosh s + 2) = s + artanh κ.** LHS/RHS is strictly monotone
+  in s, so there is **exactly one equatorial ring for every q > 0 and χ ∈ (0, 1), and none for q ≤ 0** (Kerr has none).
+- For q < 0 there is instead one ±y pair of off-equator B = A = 0 rings (e.g. χ 0.9, q −1: x ≈ 1.69, y ≈ 0.80).
+  Their curvature has not been examined.
+- At **χ = 0.9, q = 0.95** (GLM's orbit parameters; also, by our arithmetic, Brink 2008 Fig. 6, whose α₂ = 11.4708 is
+  this β): **x_s = 1.929828258521150, Weyl ρ = 0.7195 M**, outside the horizon rod (x_s − 1 = 0.930).
+
+**2. It is a curvature singularity (two independent curvature codes, 100-digit arithmetic).**
+- Kretschmann **K ∝ d⁻⁶** in coordinate distance d (∝ s⁻³ in proper distance s ∝ d²). Local slopes over the last
+  decade: −6.000 ± 0.004 on four rays. K·δ⁶ on the equator matches the predicted 48R_s⁴/(Λ²k⁸x_s⁶) to 3.5e−7.
+- K has 12 nodal directions, but √(K² + P²) (P the Pontryagin density) stays ≥ 5.39·d⁻⁶ at all 36 angles sampled.
+- The ring is at finite proper distance (0.1547 from x = x_s + 0.5), and equatorial timelike and null geodesics reach it.
+- Analytically: ℰ has a simple pole there, holomorphic in W = (ρ−ρ₀) + iz; the leading local metric is a vacuum
+  pp-wave (all invariants vanish), and |I| ∝ B⁻³ comes from the first correction. **That one step is assumed (taken as
+  in Kerr) and supported numerically at four rings, not yet derived.** The ring is asymptotically Petrov type D.
+
+**3. Geometry: the configuration of Manko 2011 (arXiv:1110.6564).**
+- On the equator the ergosurface A = 0 and the g_φφ = 0 curve both pass vertically through the ring and are tangent
+  there, at every ring (symbolic; barring two degenerate conditions not met at our points). At the ring **g_φφ has a pole, not a zero** (+∞ from the ergoregion
+  side, −∞ from the CTC side), as at Kerr's ring.
+- So the stationary limit surface touches the CTC-region boundary at the ring, which is Manko's 2011 description of a
+  vacuum ring singularity. At χ 0.9, q 0.95 the ring is the outermost point of the CTC region (partially verified).
+
+## How the metric was checked
+- **Two transcriptions**, the second made independently from the arXiv LaTeX of GLM, Brink App. C and LGAC, agree on
+  f, ω, e^{2γ} to 5e−79 (C0) and 7e−77 (F5-R, a second point near C0).
+- **Vacuum:** full 4-D Ricci at 17 points, including d = 1e−3 from the ring: Ricci/√|K| ≤ 9e−87.
+- **Axis:** reading GLM's Eq. 3h "−2" outside the sum (as LGAC do) gives e^{2γ} = 1 on both axis half-lines; the
+  "inside" reading is Ricci-flat but conical. **The ring is present in both readings** (K differs by e^{16β}).
+- **Multipoles** from the axis Ernst potential: mass, spin, quadrupole −M(a² + qM²) and current octupole equal GLM Eq. 4.
+- Kerr controls: K matches the closed form to ≥ 98 digits; no B = 0 point with x > 1.
+
+## What is not verified
+1. **Whether this is already known.** Not identified in 324 papers citing or using MN (284 keyword-screened in full text, 40 on abstract only; about 20 read closely); the
+   only statement found, a label in Brink 2008 Fig. 10, says "no singularities outside". **Not read:** MN 1992 (CQG 9,
+   2477), Castejón-Amenedo & Manko 1990, Manko 1990 (CQG 7 L209), Manko et al. 1998.
+2. **MN 1992's own γ normalisation**, since the original was not read.
+3. The first-order-correction step behind the exponent (item 2), which is numerical, not derived.
+4. "No off-equator zeros for q > 0", which is numerical only.
+5. A pre-registered slope-fit criterion failed as registered: over d = 1e−2…1e−5 one side fits −6.13 (band ±0.1),
+   because the d = 1e−2 point is pre-asymptotic. It is recorded, not tuned away.
+
+**Closest precedents:** Kodama & Hikida 2003 (TS δ=2: Ψ₂ ∝ B⁻³ at the equatorial B = 0 point); Manko 2011; Manko,
+Mejía, Ramos & Ruiz 2023 (arXiv:2304.00067: off-axis rings are Ernst-denominator zeros on f = 0).
+
+Code, pre-registration and all results, including the failed criterion: this repository (start at `README.md`).

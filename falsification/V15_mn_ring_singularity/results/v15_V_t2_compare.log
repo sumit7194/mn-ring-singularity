@@ -1,0 +1,2 @@
+C0 {'k_mine_minus_v9': '0', 'alpha_mine_minus_v9': '0', 'beta_from_q_minus_registered': '1.7629e-279'} worst outside 5.0133e-79 worst inside 1.0 symbolic -46875*y**6/(19*x**6 + 114*x**4*y**2 - 114*x**4 + 285*x**2*y**4 - 570*x**2*y**2 
+F5R {'k_mine_minus_v9': '0', 'alpha_mine_minus_v9': '0', 'beta_from_q_minus_registered': '0.0'} worst outside 6.585e-77 worst inside 1.0 symbolic -179410246036921*y**6/(75066533568*x**6 + 450399201408*x**4*y**2 - 450399201408*

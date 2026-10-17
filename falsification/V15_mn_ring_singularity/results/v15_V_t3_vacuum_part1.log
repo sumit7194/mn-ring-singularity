@@ -1,0 +1,55 @@
+{'C0': {'x_s': '1.929828258521150008402769005354225801285', 'a_plus_b': '0.0', 'dev_from_registered': '1.15e-12'}, 'F5R': {'x_s': '1.921922587916759772247059419686138289225', 'a_plus_b': '0.0', 'dev_from_registered': '-3.2402e-12'}}
+built outside 71.89487481117249
+C0 generic 0 5.8279486006 -0.927856081 -0.00061075294 1.057e-58 5.8242e-99
+C0 generic 1 4.6931585179 -0.649775822 0.016667221869 2.698e-59 1.813e-99
+C0 generic 2 5.9323802857 -0.917926757 -0.00027772276 9.7351e-58 9.0634e-98
+C0 generic 3 5.4034817772 0.3445662623 0.049589964840 6.1846e-60 1.2706e-99
+C0 generic 4 5.2938447932 0.9496508449 -0.00413591623 2.9191e-58 6.0174e-98
+C0 generic 5 2.2365901517 -0.307652261 -12.8546703773 3.8027e-60 5.436e-99
+C0 generic 6 4.5555619482 -0.416894796 0.093989823658 1.0774e-59 6.9506e-100
+C0 generic 7 2.3534055728 -0.515641521 -0.75666617487 8.7867e-58 2.2965e-97
+C0 generic 8 5.2962936321 0.7116119502 0.005582301540 2.6191e-59 4.1439e-99
+C0 generic 9 4.9981991622 -0.525556706 0.035677880112 1.146e-59 8.4976e-100
+C0 ring d=1e-3 +x 1.9308282585 0.0 1.191114515398 3.5848e-48 1.0192e-87
+C0 ring d=1e-3 -x 1.9288282585 0.0 98130896336490 4.907e-48 5.6582e-88
+C0 ring d=1e-3 +y 1.9298282585 0.001 -5374105795549 1.0401e-47 1.0922e-87
+C0 ring d=1e-3 diag(-,+) 1.9291211517 0.0007071067 15793541452466 3.8157e-47 2.9086e-87
+F5R 3.0 0.4 9.160812440066 9.066e-58 2.8283e-97
+F5R 1.9229225879 0.0 1870185139503. 7.6799e-46 8.6167e-87
+F5R 1.9219225879 0.001 -87185421201.0 9.6769e-46 2.7287e-87
+built inside_GLM_literal 59.93522024154663
+C0 generic 0 5.8279486006 -0.927856081 -3.11211325444 9.7244e-59 None
+C0 generic 1 4.6931585179 -0.649775822 8.492841951240 2.698e-59 None
+C0 generic 2 5.9323802857 -0.917926757 -1.41514617417 9.7272e-58 None
+C0 ring d=1e-3 +x 1.9308282585 0.0 6.069366211143 3.5848e-48 None
+C0 ring d=1e-3 +y 1.9298282585 0.001 -2.73839464710 1.0401e-47 None
+built beta2_9over4_Brink 58.04264807701111
+C0 generic 0 5.8279486006 -0.927856081 -0.00055059974 0.42853 None
+C0 generic 1 4.6931585179 -0.649775822 0.017448448425 0.045583 None
+C0 generic 2 5.9323802857 -0.917926757 -0.00022263214 0.57559 None
+C0 ring d=1e-3 +x 1.9308282585 0.0 1.164012787509 0.00051151 None
+C0 ring d=1e-3 +y 1.9298282585 0.001 4.493074524261 0.00098247 None
+built b_P2_over_r2_Brink 64.42842388153076
+C0 generic 0 5.8279486006 -0.927856081 0.004190588489 2.7516 None
+C0 generic 1 4.6931585179 -0.649775822 -0.11761276890 5.6814 None
+C0 generic 2 5.9323802857 -0.917926757 0.003844681541 2.8587 None
+C0 ring d=1e-3 +x 1.9308282585 0.0 -0.13593344316 2.9872 None
+C0 ring d=1e-3 +y 1.9298282585 0.001 -0.46208829753 1.6335 None
+{'label': 'C0 generic 0', 'ernst_rel_residual': '(2.5613e-59 - 5.0034e-59j)', 'ReE_minus_f_rel': '4.5935e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 1', 'ernst_rel_residual': '(-8.841e-61 - 9.7251e-60j)', 'ReE_minus_f_rel': '0.0', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 2', 'ernst_rel_residual': '(2.2886e-59 - 2.6626e-60j)', 'ReE_minus_f_rel': '0.0', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 3', 'ernst_rel_residual': '(7.1754e-60 + 8.9693e-60j)', 'ReE_minus_f_rel': '0.0', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 4', 'ernst_rel_residual': '(9.5116e-59 + 5.0993e-59j)', 'ReE_minus_f_rel': '-1.5892e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 5', 'ernst_rel_residual': '(6.5648e-60 + 1.5267e-61j)', 'ReE_minus_f_rel': '-1.5536e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 6', 'ernst_rel_residual': '(9.7242e-61 + 2.5283e-60j)', 'ReE_minus_f_rel': '-1.2113e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 7', 'ernst_rel_residual': '(9.7413e-60 - 4.3379e-59j)', 'ReE_minus_f_rel': '-1.5452e-60', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 8', 'ernst_rel_residual': '(3.821e-59 + 2.4966e-59j)', 'ReE_minus_f_rel': '-8.7802e-62', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+{'label': 'C0 generic 9', 'ernst_rel_residual': '(-4.4346e-60 + 8.757e-60j)', 'ReE_minus_f_rel': '2.0253e-61', 'twist_ratio_rho': '-1.0', 'twist_ratio_z': '-1.0'}
+Traceback (most recent call last):
+  File "./falsification/V15_mn_ring_singularity/code/v15_V_t3_vacuum.py", line 117, in <module>
+    r1 = Phr / (-(fv**2 / rho) * omz)
+         ~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+  File "<string>", line 7, in __div__
+  File "<venv>/lib/python3.14/site-packages/mpmath/libmp/libmpf.py", line 960, in mpf_div
+    raise ZeroDivisionError
+ZeroDivisionError
