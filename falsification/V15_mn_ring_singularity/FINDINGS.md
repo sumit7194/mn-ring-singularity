@@ -203,3 +203,19 @@ sympy 1.14.0, mpmath 1.3.0, numpy 2.4.6), as recorded in each JSON.
     write-up.
 - Lukes-Gerakopoulos, Contopoulos & Apostolatos 2014 (arXiv:1408.4697, "Non-linear effects in non-Kerr spacetimes"):
   real, about bumpy-BH dynamics, and not about singularities.
+
+## Fang 2007 thesis check (results/v15_fang2007_check.md)
+- **Source:** H. Fang, *Topics in Gravitational Physics: Tidal Coupling in Gravitational Wave Searches and Mach's
+  Principle*, Caltech PhD 2007, DOI 10.7907/D99H-J577. Open access at https://thesis.caltech.edu/1915/01/thesis.pdf.
+  The MN material is in Appendix 3.A.1, pp. 74–78.
+- **The MN 1992 Eq. 14 typo** (footnote 20, p. 77): in M₂ the last α₂ should be α². It is in the moment formula only,
+  not the metric.
+- **Agreement:** our ψ, a, b, f, α, k and the β² term of γ′ agree with Fang Eqs. (3.64)–(3.70), which Fang presents as
+  evaluations of MN 1992 Eqs. (11)–(13). Combined checks agree to 40 digits at 3 points, and ω matches Fang's
+  large-r expansion.
+- **γ normalisation:** Fang's closed form equals β(Σ − 2), i.e. "−2 outside the sum". That is our axis-regular
+  reading; GLM's literal print would give β(Σ − 6). **This is independent support for the normalisation V test 4
+  chose.**
+- **Not covered by Fang:** MN's closed-form A, B, C, the ω constant and the (1−α²)⁻² prefactor. These are still
+  checked only against GLM and LGAC, and need MN 1992 itself.
+- Honest wording: "agrees with Fang 2007 (his evaluation of MN 1992 Eqs. 11–13)". NOT "agrees with MN 1992".

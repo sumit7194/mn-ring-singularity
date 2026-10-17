@@ -1,5 +1,5 @@
-# MANIFEST for the mn-ring-singularity snapshot (prepared 2026-10-17; updated 2026-10-18 with Q2b and light redactions).
-# Source: the author's private research repository, HEAD 68cee6ea0f6299a8ba89251e65ce186795b6a963 at this update.
+# MANIFEST for the mn-ring-singularity snapshot (prepared 2026-10-17; updated 2026-10-18 with Q2b, the Fang 2007 check and light redactions).
+# Source: the author's private research repository, HEAD 7691c8108e968bdb06f863a42f5edaa2051c29ae at this update.
 # Format: <sha256>  <path in this snapshot>  # <source path @ last commit touching it>; byte-identical, EDITED or REDACTED.
 # "untracked" = present in the source working tree but not tracked by git there (a generated output).
 # Check: grep -v '^#' MANIFEST.sha256 | sed 's/  #.*//' | shasum -a 256 -c
@@ -8,10 +8,10 @@
 9990e79329f06f972101c8d575937bbd9add4975ac3f280d4c724b779ddbe38c  ENVIRONMENT/env.json  # written for this snapshot
 80961ee89efb29fbbd398cd2067f8bfb6865fbc21f6b24aeff54214675e38d36  ENVIRONMENT/requirements.lock  # written for this snapshot
 bc7420c7b35f0f1fc32c1d8e86060f5df1748f300cc3b82403ae85718d5cc5da  LICENSE  # written for this snapshot
-edc236520f67da6289be9ea7cb68ae13e57262cfb0a67ef05373662fa4949945  README.md  # written for this snapshot
-c51cd3ac76fbd97024ad6043c09635cb8d542bda247ec6bb57435331f8c50d59  SUMMARY.md  # written for this snapshot
+2ef845fe33051b2c8df03f1797f471289f43f6ab260a11782b8b5ed74063862a  README.md  # written for this snapshot
+7142886ae5c75afa9195f9663183d5230d8217a6fc6756b331b9ec088e0b41b5  SUMMARY.md  # written for this snapshot
 33b642d8d382974c41bc86b30541ad749a133bd1fd20bcca906d5511326d8625  falsification/V13_mn_chaotic_sea/results/v13_kretschmann.json  # source falsification/V13_mn_chaotic_sea/results/v13_kretschmann.json @ 5e93ffb; byte-identical
-3e907aacf731d5dfdde364a608e4c5df65075c10541f80e5494639e60bc582f3  falsification/V15_mn_ring_singularity/FINDINGS.md  # source falsification/V15_mn_ring_singularity/FINDINGS.md @ 68cee6e; REDACTED (internal-tooling wording neutralised; no result changed); source sha256 09b146430c1039fe84a96cfde03466423219935520bfc4589d57852fd85e6975
+ebc5be94739a1f4923280c76fa814b737596a444593e0bf2897f4f298cb771c9  falsification/V15_mn_ring_singularity/FINDINGS.md  # source falsification/V15_mn_ring_singularity/FINDINGS.md @ 7691c81; REDACTED (internal-tooling wording neutralised; no result changed); source sha256 94be6950e32c016691a0311669c582ed0cec2bcb8665e0c37921a5bf8c926dda
 80f2b1f3d5ec4a3652944a882906ea15a0a2b67399b546953ed4fa6f352c0e7c  falsification/V15_mn_ring_singularity/PREREGISTRATION.md  # source falsification/V15_mn_ring_singularity/PREREGISTRATION.md @ afb5d0f; REDACTED (internal-tooling sentences shortened; one absolute path replaced); source sha256 1c5b068af02dcc85e6abbdb95106f8f12ea1f23efeb0f75a86e760e4694e1934
 40d1f074c92324558073663c24f1af0149b1b4fd80c2147b16107d271933f2d5  falsification/V15_mn_ring_singularity/code/v15_V_curv.py  # source falsification/V15_mn_ring_singularity/code/v15_V_curv.py @ 490631b; byte-identical
 7e1d6786c2b5a3a77e98117465be9bda21e73f2735c0c4e31d888bd38593f328  falsification/V15_mn_ring_singularity/code/v15_V_mn.py  # source falsification/V15_mn_ring_singularity/code/v15_V_mn.py @ 490631b; byte-identical
@@ -33,6 +33,7 @@ e3d3ee8d5e20ae29cd539d2ef35ec69900e12720a380e361998b76cdab16235f  falsification/
 e20cb989ff02bf1929e1bf8fe59fe3e6418fd8bcbf3730621d21e780c3cb196e  falsification/V15_mn_ring_singularity/results/v15_V_t6_singularity.json  # source falsification/V15_mn_ring_singularity/results/v15_V_t6_singularity.json @ 490631b; byte-identical
 ef8df85b482b36d3838809cc6f83ffec0fccf502dff4b8e8802ae7e625345b74  falsification/V15_mn_ring_singularity/results/v15_V_t6_singularity.log  # source falsification/V15_mn_ring_singularity/results/v15_V_t6_singularity.log @ 490631b; byte-identical
 86d24d7cbcb31b800035c7ffce73c339e24879e2200735568aaaeb338f3c954c  falsification/V15_mn_ring_singularity/results/v15_V_verifier.md  # source falsification/V15_mn_ring_singularity/results/v15_V_verifier.md @ 490631b; byte-identical
+f5e2e7978285cc01ac20a0b64ccc43f8a4f5185aecd06c66ba8e77358edac5b1  falsification/V15_mn_ring_singularity/results/v15_fang2007_check.md  # source falsification/V15_mn_ring_singularity/results/v15_fang2007_check.md @ 7691c81; REDACTED (absolute paths replaced); source sha256 f1c677970e2d2589e73aa9a6a7fa59eab6e776a86f74a3016eeb644540830ed8
 032d3bbbb801f85c9a32a0928028dc31168c04fd965fa877bd805235279ee29b  falsification/V15_mn_ring_singularity/results/v15_q1_existence.json  # source falsification/V15_mn_ring_singularity/results/v15_q1_existence.json @ da9d428; byte-identical
 562deb24641954c398f07b2a2ada3dc4e8cf5229f84b8f6e0cca90851f3a311f  falsification/V15_mn_ring_singularity/results/v15_q1_map.svg  # source falsification/V15_mn_ring_singularity/results/v15_q1_map.svg @ da9d428; byte-identical
 4b8951cc168a1266b15d0689372717540ec72d5d6c25db67e4c9757a6ba6bf5e  falsification/V15_mn_ring_singularity/results/v15_q1_map_arrays.npz  # source falsification/V15_mn_ring_singularity/results/v15_q1_map_arrays.npz @ untracked; byte-identical

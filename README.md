@@ -27,7 +27,7 @@ physicist has reviewed it yet. Corrections are very welcome.
 | `.../code/v15_q2b_check.py` | Q2b: the analytic derivation of the d⁻⁶ law (`results/v15_q2b_derivation.md`) checked against the numeric K·δ⁶ at four rings |
 | `.../code/v15_q3_geometry.py` | Q3: ergosurface, g_φφ and B near the ring; the CTC region |
 | `.../code/v15_V_*.py` | The adversarial verifier: an independent transcription (`v15_V_mn.py`), its own curvature code (`v15_V_curv.py`), and tests 2–6 (`t2_compare`, `t3_vacuum`, `t5_multipoles`, `t6_singularity`) |
-| `.../results/` | Every result file (JSON with versions, logs, figures), the analytic notes `v15_q2_analytic.md`, `v15_q3_geometry.md`, the literature review `v15_q4_literature.md` and its screening record `v15_q4_screen.json`, and the verifier's report `v15_V_verifier.md` |
+| `.../results/` | Every result file (JSON with versions, logs, figures), the analytic notes `v15_q2_analytic.md`, `v15_q3_geometry.md`, the literature review `v15_q4_literature.md` and its screening record `v15_q4_screen.json`, the check against Fang's 2007 thesis `v15_fang2007_check.md`, and the verifier's report `v15_V_verifier.md` |
 | `falsification/V9_mn_obstruction_check/code/v9_nve.py` | The earlier MN transcription that `v15_V_t2_compare.py` imports and compares against |
 | `falsification/V13_mn_chaotic_sea/results/v13_kretschmann.json` | The earlier, separate implementation's Kretschmann table, read only by `v15_q2_curvature.py --compare-v13` |
 | `ENVIRONMENT/` | `requirements.lock` (pip freeze) and `env.json` (interpreter, platform, package versions, BLAS/LAPACK) |
