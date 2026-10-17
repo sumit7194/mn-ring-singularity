@@ -8,7 +8,7 @@
 9990e79329f06f972101c8d575937bbd9add4975ac3f280d4c724b779ddbe38c  ENVIRONMENT/env.json  # written for this snapshot
 80961ee89efb29fbbd398cd2067f8bfb6865fbc21f6b24aeff54214675e38d36  ENVIRONMENT/requirements.lock  # written for this snapshot
 bc7420c7b35f0f1fc32c1d8e86060f5df1748f300cc3b82403ae85718d5cc5da  LICENSE  # written for this snapshot
-2ef845fe33051b2c8df03f1797f471289f43f6ab260a11782b8b5ed74063862a  README.md  # written for this snapshot
+f7c94299cf6d623894c6618406711561db66db34ac0da852ac442cebfab1d7af  README.md  # written for this snapshot
 7142886ae5c75afa9195f9663183d5230d8217a6fc6756b331b9ec088e0b41b5  SUMMARY.md  # written for this snapshot
 33b642d8d382974c41bc86b30541ad749a133bd1fd20bcca906d5511326d8625  falsification/V13_mn_chaotic_sea/results/v13_kretschmann.json  # source falsification/V13_mn_chaotic_sea/results/v13_kretschmann.json @ 5e93ffb; byte-identical
 ebc5be94739a1f4923280c76fa814b737596a444593e0bf2897f4f298cb771c9  falsification/V15_mn_ring_singularity/FINDINGS.md  # source falsification/V15_mn_ring_singularity/FINDINGS.md @ 7691c81; REDACTED (internal-tooling wording neutralised; no result changed); source sha256 94be6950e32c016691a0311669c582ed0cec2bcb8665e0c37921a5bf8c926dda

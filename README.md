@@ -74,7 +74,7 @@ see the bottom of this file for the outcome.
   `v15_V_t6_singularity.py`, `v15_q2_curvature.py`). The manifest gives both the original and the snapshot sha256
   for these.
 - **Light redactions (2026-10-18), recorded per file in the manifest:** absolute paths on the author's machine in two
-  log files and in `PREREGISTRATION.md` were replaced by `./`, `<venv>/` or `<home>/`; two sentences in
+  log files, in `v15_fang2007_check.md` and in `PREREGISTRATION.md` were replaced by `./`, `<venv>/` or `<home>/`; two sentences in
   `PREREGISTRATION.md` and `FINDINGS.md` about the author's internal tooling and review budget were shortened; and
   `ENVIRONMENT/env.json` no longer records the BLAS/LAPACK backend. No result, number, criterion or outcome was
   changed. Every other file is byte-identical to its source.
