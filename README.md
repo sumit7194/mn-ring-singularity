@@ -8,6 +8,14 @@ outside the horizon for every q > 0. Our computations say this is a curvature ri
 We could not find it in the literature we could read, and we could not read Manko & Novikov 1992 itself, so we are
 asking whether it is already known. **We do not claim it is new.**
 
+**Update 2026-10-23.** An expert reader pointed us to prior work on *massless* ring singularities off the axis in
+vacuum stationary solutions: Manko & Ruiz, Prog. Theor. Phys. 125 (2011) 1241 (arXiv:1101.4687), and Manko, Prog.
+Theor. Phys. 127 (2012) 1057 (arXiv:1110.6564). So the phenomenon itself is known. A new pre-registered check (Q4,
+`code/v15_q4_komar.py`, `results/q4_komar.txt`) finds that the MN ring is massless too: its Komar mass is zero to
+~1e−29 at three radii, with a total-mass control of 1 and a regular-point control of 0. What this snapshot still
+reports, as far as we know, is the presence of exactly one such ring in the MN metric (GLM parametrisation) for every
+q > 0. Details, including one disclosed normalisation fix that the control caught, are at the end of FINDINGS.md.
+
 The one-page summary is [`SUMMARY.md`](SUMMARY.md). The full write-up, with every registered criterion and its
 outcome (including one that failed as registered), is
 [`falsification/V15_mn_ring_singularity/FINDINGS.md`](falsification/V15_mn_ring_singularity/FINDINGS.md), and the
@@ -25,6 +33,7 @@ physicist has reviewed it yet. Corrections are very welcome.
 | `.../code/v15_q1_existence.py` | Q1: closed-form equatorial condition, (χ, q) existence map, off-equator search |
 | `.../code/v15_q2_curvature.py` | Q2: Kretschmann and Weyl invariants near the ring (2+2 block-Riemann route, 100 digits); `--compare-v13` compares with an earlier, separate implementation's table |
 | `.../code/v15_q2b_check.py` | Q2b: the analytic derivation of the d⁻⁶ law (`results/v15_q2b_derivation.md`) checked against the numeric K·δ⁶ at four rings |
+| `.../code/v15_q4_komar.py` | Q4 (2026-10-23): Komar mass of the ring, with controls; imports `falsification/V13_mn_chaotic_sea/code/v13_field.py` (the regularised MN field) |
 | `.../code/v15_q3_geometry.py` | Q3: ergosurface, g_φφ and B near the ring; the CTC region |
 | `.../code/v15_V_*.py` | The adversarial verifier: an independent transcription (`v15_V_mn.py`), its own curvature code (`v15_V_curv.py`), and tests 2–6 (`t2_compare`, `t3_vacuum`, `t5_multipoles`, `t6_singularity`) |
 | `.../results/` | Every result file (JSON with versions, logs, figures), the analytic notes `v15_q2_analytic.md`, `v15_q3_geometry.md`, the literature review `v15_q4_literature.md` and its screening record `v15_q4_screen.json`, the check against Fang's 2007 thesis `v15_fang2007_check.md`, and the verifier's report `v15_V_verifier.md` |

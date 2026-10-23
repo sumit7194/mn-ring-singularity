@@ -1,0 +1,7 @@
+C1 Kerr (beta=0): asymptotic Komar mass = 1.0
+C1 MN q=0.95: asymptotic Komar mass = 1.0
+C2 regular-point circle (x=3, y=0.3, r=0.05): -1.63478e-32
+ring x_s = 1.9298282585232429032
+ring circle r=1e-2: Komar mass = 6.96765149413e-30
+ring circle r=3e-3: Komar mass = 2.31278317134e-29
+ring circle r=1e-3: Komar mass = 7.02053507968e-29

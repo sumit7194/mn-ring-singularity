@@ -63,3 +63,20 @@ Python env: a pinned venv (versions recorded in each result; see ENVIRONMENT/).
   reduces to the exact Kerr result at β = 0.
 - **FAIL / INCONCLUSIVE** is reported as such. The singularity verdict does not depend on Q2b, because the invariant
   divergence is shown numerically by V. Q2b only decides whether the exponent is derived or empirical.
+
+## Q4 (registered 2026-10-23, before any computation): Komar mass of the equatorial ring
+Motivation: an expert reader pointed to the "massless ring singularities" in vacuum stationary solutions (Manko & Ruiz,
+PTP 125 (2011) 1241, p. 1250; Manko, PTP 127 (2012) 1057 = arXiv:1110.6564). Is our MN ring of that kind?
+- Method: Komar mass M = −(1/8π)∮ *dξ♭ for ξ = ∂_t, on tori {closed curve C in (x, y)} × φ, at χ = 0.9, q = 0.95
+  (β = q/κ³), with M = 1. In Weyl–Papapetrou prolate form the integrand reduces exactly to
+  (*F)_{xφ} = −2(g_φφ ∂_y g_tt − g_tφ ∂_y g_tφ)/(k(x²−1)) and (*F)_{yφ} = 2(g_φφ ∂_x g_tt − g_tφ ∂_x g_tφ)/(k(1−y²)),
+  using √|g| = k³|B|e^{G−2ψ}/(1−α²)² and the regularised g_φφ of v13. Evaluated in mpmath at 30 digits.
+- Controls (all must pass, else the result is void):
+  - C1: the asymptotic contour (x = 200, y ∈ [−1, 1]) gives the total mass 1 to ≤ 1e-6. This also fixes the
+    overall sign and orientation; it is done for MN AND for Kerr (β = 0).
+  - C2: a small circle around a REGULAR point (x = 3, y = 0.3) gives 0 to ≤ 1e-12.
+- Measurement: circles of radius r ∈ {1e-2, 3e-3, 1e-3} in (x, y) around the ring point (x_s, 0).
+- Verdict:
+  - "massless ring" if |M_ring| ≤ 1e-10 at every radius (conservation in vacuum means it is radius-independent);
+  - "ring carries Komar mass m" if the value is radius-independent and nonzero;
+  - otherwise "inconclusive" (e.g. the contour meets the ergoregion/CTC structure).

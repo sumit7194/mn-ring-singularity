@@ -8,11 +8,8 @@
 9990e79329f06f972101c8d575937bbd9add4975ac3f280d4c724b779ddbe38c  ENVIRONMENT/env.json  # written for this snapshot
 80961ee89efb29fbbd398cd2067f8bfb6865fbc21f6b24aeff54214675e38d36  ENVIRONMENT/requirements.lock  # written for this snapshot
 bc7420c7b35f0f1fc32c1d8e86060f5df1748f300cc3b82403ae85718d5cc5da  LICENSE  # written for this snapshot
-f7c94299cf6d623894c6618406711561db66db34ac0da852ac442cebfab1d7af  README.md  # written for this snapshot
 7142886ae5c75afa9195f9663183d5230d8217a6fc6756b331b9ec088e0b41b5  SUMMARY.md  # written for this snapshot
 33b642d8d382974c41bc86b30541ad749a133bd1fd20bcca906d5511326d8625  falsification/V13_mn_chaotic_sea/results/v13_kretschmann.json  # source falsification/V13_mn_chaotic_sea/results/v13_kretschmann.json @ 5e93ffb; byte-identical
-ebc5be94739a1f4923280c76fa814b737596a444593e0bf2897f4f298cb771c9  falsification/V15_mn_ring_singularity/FINDINGS.md  # source falsification/V15_mn_ring_singularity/FINDINGS.md @ 7691c81; REDACTED (internal-tooling wording neutralised; no result changed); source sha256 94be6950e32c016691a0311669c582ed0cec2bcb8665e0c37921a5bf8c926dda
-80f2b1f3d5ec4a3652944a882906ea15a0a2b67399b546953ed4fa6f352c0e7c  falsification/V15_mn_ring_singularity/PREREGISTRATION.md  # source falsification/V15_mn_ring_singularity/PREREGISTRATION.md @ afb5d0f; REDACTED (internal-tooling sentences shortened; one absolute path replaced); source sha256 1c5b068af02dcc85e6abbdb95106f8f12ea1f23efeb0f75a86e760e4694e1934
 40d1f074c92324558073663c24f1af0149b1b4fd80c2147b16107d271933f2d5  falsification/V15_mn_ring_singularity/code/v15_V_curv.py  # source falsification/V15_mn_ring_singularity/code/v15_V_curv.py @ 490631b; byte-identical
 7e1d6786c2b5a3a77e98117465be9bda21e73f2735c0c4e31d888bd38593f328  falsification/V15_mn_ring_singularity/code/v15_V_mn.py  # source falsification/V15_mn_ring_singularity/code/v15_V_mn.py @ 490631b; byte-identical
 23d7e509aad33bce4999a88772c9e7f7c05e4381f119f954eafbfd8932f54975  falsification/V15_mn_ring_singularity/code/v15_V_t2_compare.py  # source falsification/V15_mn_ring_singularity/code/v15_V_t2_compare.py @ 490631b; EDITED (absolute paths -> relative); source sha256 27d81dbfff38fba6adf137ea4e4876f9f76750a6ab71c96f75a1669154022d24
@@ -50,3 +47,9 @@ edee0a0c6dbdb8e7e4a9ae98bdb7fa5bc96302b833ac6d0e8e809f6175e0e240  falsification/
 6e02d9e44f7b43fed9d8109322da93363e6b0b2c44609298ae33ef53dc386300  falsification/V15_mn_ring_singularity/results/v15_q4_literature.md  # source falsification/V15_mn_ring_singularity/results/v15_q4_literature.md @ 3d304bd; byte-identical
 38c135cece31222d9d8a7455648932a2338e11305140c6c88855d64d260b9e73  falsification/V15_mn_ring_singularity/results/v15_q4_screen.json  # source falsification/V15_mn_ring_singularity/results/v15_q4_screen.json @ 3d304bd; byte-identical
 9be4aa93bab95d75a23de394d59501e62aea7ad6cfe4889dcf595fffd8b0a439  falsification/V9_mn_obstruction_check/code/v9_nve.py  # source falsification/V9_mn_obstruction_check/code/v9_nve.py @ 0ab99ad; byte-identical
+9272d369867f97bc932b06c50bd645321f2e019eb78cde0af374ee2c82f90c6c  falsification/V15_mn_ring_singularity/code/v15_q4_komar.py  # falsification/V15_mn_ring_singularity/code/v15_q4_komar.py @ 27e24ec; byte-identical
+cb1f98d890a056f463bb25b236201bfb5107b7a3cfb7c4cef9f88b65a992a969  falsification/V15_mn_ring_singularity/results/q4_komar.txt  # falsification/V15_mn_ring_singularity/results/q4_komar.txt @ 27e24ec; byte-identical
+46f6161b23055b000355ca56f79ee57c65c6b0ba58fc95a1d98ba43993ba8863  falsification/V13_mn_chaotic_sea/code/v13_field.py  # falsification/V13_mn_chaotic_sea/code/v13_field.py @ 27e24ec; EDITED (docstring: internal name removed)
+6eb7adb3bacd293d5f70d7ffab1e53672a93b269451c2dca5fbde14bb4ea02ab  falsification/V15_mn_ring_singularity/FINDINGS.md  # falsification/V15_mn_ring_singularity/FINDINGS.md @ 27e24ec; EDITED (2026-10-23 section appended; private names neutralised)
+7eec0cd9b2170be1e9ee3f3100b4409c66a27ce1fa5bc1db3ec516963dcfdc14  falsification/V15_mn_ring_singularity/PREREGISTRATION.md  # falsification/V15_mn_ring_singularity/PREREGISTRATION.md @ 27e24ec; EDITED (2026-10-23 section appended; private names neutralised)
+cfdd48255cac3d077c1528d2a8f5244a4a747b90c00615e934f2f10d63340d9f  README.md  # README.md @ 27e24ec; EDITED (update note)

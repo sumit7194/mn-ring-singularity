@@ -219,3 +219,29 @@ sympy 1.14.0, mpmath 1.3.0, numpy 2.4.6), as recorded in each JSON.
 - **Not covered by Fang:** MN's closed-form A, B, C, the ω constant and the (1−α²)⁻² prefactor. These are still
   checked only against GLM and LGAC, and need MN 1992 itself.
 - Honest wording: "agrees with Fang 2007 (his evaluation of MN 1992 Eqs. 11–13)". NOT "agrees with MN 1992".
+
+## Prior art brought to our attention by an expert reader (2026-10-21), and Q4: the ring is MASSLESS (2026-10-23)
+- **Prior art:** off-axis "massless ring singularities" in VACUUM stationary axisymmetric solutions are known:
+  - Manko & Ruiz, Prog. Theor. Phys. 125 (2011) 1241 (arXiv:1101.4687), §IV.B, p. 1250: a massless equatorial ring
+    in the Kinnersley–Chitre metric (two corotating extreme Kerr sources), called "a very unexpected result";
+  - Manko, Prog. Theor. Phys. 127 (2012) 1057 (arXiv:1110.6564): δ = 2 Tomimatsu–Sato. Already cited in our query, for the
+    geometry.
+  - So the PHENOMENON is not new. What our V15 adds, as far as we know: in the Manko–Novikov metric as parametrised
+    by GLM 2008, there is exactly one such equatorial ring for every q > 0, outside the horizon.
+- **Q4, the Komar mass of the ring (pre-registered, 03b00a5; code/v15_q4_komar.py; results/q4_komar.txt):**
+  - Setup: χ = 0.9, q = 0.95, M = 1; ring at x_s = 1.92982825852324290 (y = 0); mpmath at 30 digits.
+  - C1 (asymptotic contour, x = 200): Komar mass 1.0 for both Kerr and MN. PASS, after a disclosed correction: as
+    literally registered, C1 gave 2.0 for both. It caught a factor-2 error in my registered normalisation
+    (−(1/8π)∮*dξ♭ instead of the standard Komar −(1/8π)∮*∇ξ = −(1/16π)∮*dξ♭). The corrected normalisation is the
+    standard one and was fixed by the control, not by the ring value. The ring verdict below does not depend on the
+    factor, because it is zero either way.
+  - C2 (circle around a regular point): −1.6e−32. PASS.
+  - Ring circles r = 1e−2, 3e−3, 1e−3: 7.0e−30, 2.3e−29, 7.0e−29 (numerical noise ∝ 1/r, as the integrand grows near
+    the ring).
+  - **VERDICT (registered rule |M_ring| ≤ 1e−10 at every radius): the MN equatorial ring is MASSLESS.** It is of
+    the same kind as the Manko–Ruiz / Tomimatsu–Sato massless ring singularities.
+- **Quadrupole sign (checking a suggested explanation, that the singularity might be due to a positive mass
+  quadrupole moment):** our axis-Ernst multipoles (FINDINGS §5 above, matching GLM Eq. 4) give a mass quadrupole
+  −M(a² + qM²). So q > 0 makes it MORE negative than Kerr's −Ma², and the equatorial ring exists exactly for q > 0.
+  In our parametrisation the ring is therefore NOT tied to a positive quadrupole. (A positive quadrupole needs
+  q < −χ², the regime of the off-equator ring pair, whose curvature is unexamined.) This is recorded as data.
